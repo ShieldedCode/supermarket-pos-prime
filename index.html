@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Supermarket POS | تحميل برنامج الكاشير</title>
+    <title>Supermarket POS Prime | تحميل برنامج الكاشير</title>
     <style>
         * { box-sizing: border-box; margin: 0; padding: 0; }
+
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
@@ -16,6 +17,7 @@
             justify-content: center;
             padding: 20px;
         }
+
         .card {
             background: #ffffff;
             width: 100%;
@@ -25,6 +27,7 @@
             box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
             text-align: center;
         }
+
         .badge {
             background: #dcfce7;
             color: #15803d;
@@ -35,8 +38,16 @@
             display: inline-block;
             margin-bottom: 16px;
         }
+
         h1 { color: #0f172a; font-size: 26px; margin-bottom: 12px; }
-        .desc { color: #475569; font-size: 15px; line-height: 1.7; margin-bottom: 24px; }
+
+        .desc {
+            color: #475569;
+            font-size: 15px;
+            line-height: 1.7;
+            margin-bottom: 24px;
+        }
+
         .features {
             background: #f8fafc;
             border: 1px solid #e2e8f0;
@@ -47,8 +58,18 @@
             font-size: 14px;
             color: #334155;
         }
+
         .features div { margin-bottom: 8px; }
         .features div:last-child { margin-bottom: 0; }
+
+        .section-title {
+            text-align: right;
+            color: #0f172a;
+            font-size: 15px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
         .btn {
             display: block;
             width: 100%;
@@ -60,18 +81,49 @@
             transition: all 0.2s ease;
             margin-bottom: 12px;
         }
+
         .btn-download {
             background-color: #2563eb;
             color: #ffffff;
             box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
         }
-        .btn-download:hover { background-color: #1d4ed8; transform: translateY(-2px); }
+
+        .btn-download:hover {
+            background-color: #1d4ed8;
+            transform: translateY(-2px);
+        }
+
+        .btn-windows7 {
+            background-color: #0f766e;
+            color: #ffffff;
+            box-shadow: 0 4px 12px rgba(15, 118, 110, 0.25);
+        }
+
+        .btn-windows7:hover {
+            background-color: #115e59;
+            transform: translateY(-2px);
+        }
+
+        .version-info {
+            display: block;
+            font-size: 12px;
+            font-weight: normal;
+            margin-top: 5px;
+            opacity: 0.9;
+        }
+
         .btn-whatsapp {
             background-color: #25D366;
             color: #ffffff;
             box-shadow: 0 4px 12px rgba(37, 211, 102, 0.25);
+            margin-top: 18px;
         }
-        .btn-whatsapp:hover { background-color: #1ebe5d; transform: translateY(-2px); }
+
+        .btn-whatsapp:hover {
+            background-color: #1ebe5d;
+            transform: translateY(-2px);
+        }
+
         .footer {
             margin-top: 25px;
             padding-top: 15px;
@@ -79,32 +131,69 @@
             font-size: 13px;
             color: #64748b;
         }
+
         .footer strong { color: #0f172a; }
+
+        @media (max-width: 480px) {
+            .card { padding: 30px 20px; }
+            h1 { font-size: 23px; }
+        }
     </style>
 </head>
+
 <body>
     <div class="card">
-        <span class="badge">الإصدار 4.0.0 • الحجم 78.3 MB</span>
+
+        <span class="badge">Supermarket POS Prime</span>
+
         <h1>برنامج الكاشير Supermarket POS</h1>
-        <p class="desc">نظام متكامل لإدارة المبيعات والمخزون والحسابات بكل سهولة وسرعة. قم بتحميل نسخة التثبيت الرسمية الآن.</p>
-        
+
+        <p class="desc">
+            نظام متكامل لإدارة المبيعات والمخزون والحسابات بكل سهولة وسرعة.
+            اختر نسخة البرنامج المناسبة لنظام Windows لديك.
+        </p>
+
         <div class="features">
-            <div>✔️ متوافق مع أنظمة Windows 10 و Windows 11</div>
-            <div>✔️ واجهة سهلة وسريعة لإدارة نقاط البيع</div>
+            <div>✔️ إدارة المبيعات والفواتير</div>
+            <div>✔️ إدارة المنتجات والمخزون</div>
+            <div>✔️ متابعة النظام من الهاتف</div>
+            <div>✔️ أدوات ذكية لمساعدة إدارة المتجر</div>
             <div>✔️ يتطلب كود تفعيل رسمي بعد التثبيت</div>
         </div>
 
-        <a href="https://github.com/ShieldedCode/supermarket-pos-prime/releases/download/v1.0/SupermarketPOS.Setup.4.0.0.exe" class="btn btn-download" download>
-            ⬇️ تحميل البرنامج الآن (Windows)
+        <div class="section-title">اختر نسخة Windows المناسبة:</div>
+
+        <!-- Windows 10 / 11 -->
+        <a
+            href="https://github.com/ShieldedCode/supermarket-pos-prime/releases/download/v1.0/SupermarketPOS.Setup.4.0.0.exe"
+            class="btn btn-download"
+        >
+            ⬇️ تحميل نسخة Windows 10 / 11
+            <span class="version-info">الإصدار 4.0.0</span>
         </a>
 
-        <a href="https://wa.me/201023487227" target="_blank" class="btn btn-whatsapp">
+        <!-- Windows 7 -->
+        <a
+            href="https://github.com/ShieldedCode/supermarket-pos-prime/releases/download/v4.0.1-win7/SupermarketPOS-Setup-4.0.1.exe"
+            class="btn btn-windows7"
+        >
+            ⬇️ تحميل نسخة Windows 7
+            <span class="version-info">الإصدار 4.0.1 • Windows 7 SP1 • 64-bit</span>
+        </a>
+
+        <a
+            href="https://wa.me/201023487227"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn btn-whatsapp"
+        >
             💬 تواصل عبر واتساب لطلب كود التفعيل
         </a>
 
         <div class="footer">
             تطوير وبرمجة: <strong>Abdalrahman</strong>
         </div>
+
     </div>
 </body>
 </html>
